@@ -1,0 +1,81 @@
+header{background-color: #7b2c1f;}
+.logo{width: 150px; margin-left: 450px; border-radius: 50%;}
+h1{font-family: great vibes, cursive; font-size: 3em; text-align: center;color: #d8a47f;}
+nav{margin-left: 30em;}
+.nav{text-decoration: none; font-weight:bold; color: #d8a47f;}
+.nav:hover{color: #3E2723;}
+ul{list-style: square;}
+main {
+  text-align: center;
+  color: #3E2723;
+  padding: 40px;
+  background-color: #FFF8F0;
+}
+
+.hero h2 {
+  color: #7B2C1F;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5em;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #D8A47F;
+  color: #3E2723;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #E6C9A8;
+}
+
+.featured-items {
+  list-style: none;
+  padding: 0;
+}
+
+.featured-items li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #7B2C1F;   /* rich bakery brown */
+  color: #FFF8F0;              /* soft cream text */
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.socials a {
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 0 10px;
+  color: #D8A47F;  /* caramel accent */
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #E6C9A8;  /* lighter caramel hover */
+}
+
+footer strong {
+  color: #FFD8B0;  /* soft highlight for important text */
+}
+
+footer .copyright {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #E6C9A8;
+}
+
+.photos{width: 15em;}
