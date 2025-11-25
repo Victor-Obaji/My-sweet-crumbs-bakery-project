@@ -81,44 +81,78 @@ footer .copyright {
 .photos{width: 15em;}
 
 
-/* -------------------------------------- */
-/*   MOBILE HEADER: Smaller + Centered    */
-/* -------------------------------------- */
+
+/* ------------------------- */
+/*   MOBILE RESPONSIVE FIX   */
+/* ------------------------- */
+
 @media (max-width: 768px) {
 
-    header {
-        height: auto;              /* make header shrink naturally */
-        padding: 10px 0;           /* small vertical padding */
+    /* Make layout fit small screens */
+    body {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* NAVIGATION */
+    nav ul {
         display: flex;
         flex-direction: column;
-        justify-content: center;   /* center content vertically */
-        align-items: center;       /* center content horizontally */
-        text-align: center;        /* center text */
+        gap: 10px;
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin: 0;
+    }
+    nav a {
+        font-size: 18px;
+        padding: 10px;
+        display: block;
+        text-align: center;
     }
 
-    header img {
-        width: 60px;               /* smaller logo */
+    /* HERO SECTION */
+    .hero, .banner, header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero img, .banner img {
+        max-width: 100%;
         height: auto;
-        margin-bottom: 8px;
     }
 
-    header h1, 
-    header h2,
-    header p {
-        margin: 5px 0;             /* reduce spacing */
-        font-size: 1rem;
+    /* GENERIC IMAGE FIX */
+    img {
+        max-width: 100%;
+        height: auto;
     }
 
-    nav ul {
-        flex-direction: column;    /* stack nav items */
-        gap: 8px;
-        padding: 0;
-        margin-top: 8px;
+    /* CONTENT SECTIONS */
+    section, .container {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
     }
 
-    nav ul li a {
-        font-size: 1rem;           /* readable size */
-        padding: 8px 12px;
+    /* MENU GRID ITEMS */
+    .menu-items, .product-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .menu-item, .product-card {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 20px;
     }
 }
 
