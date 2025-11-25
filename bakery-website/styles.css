@@ -81,5 +81,46 @@ footer .copyright {
 .photos{width: 15em;}
 
 
+/* -------------------------------------- */
+/*   MOBILE HEADER: Smaller + Centered    */
+/* -------------------------------------- */
+@media (max-width: 768px) {
+
+    header {
+        height: auto;              /* make header shrink naturally */
+        padding: 10px 0;           /* small vertical padding */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   /* center content vertically */
+        align-items: center;       /* center content horizontally */
+        text-align: center;        /* center text */
+    }
+
+    header img {
+        width: 60px;               /* smaller logo */
+        height: auto;
+        margin-bottom: 8px;
+    }
+
+    header h1, 
+    header h2,
+    header p {
+        margin: 5px 0;             /* reduce spacing */
+        font-size: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;    /* stack nav items */
+        gap: 8px;
+        padding: 0;
+        margin-top: 8px;
+    }
+
+    nav ul li a {
+        font-size: 1rem;           /* readable size */
+        padding: 8px 12px;
+    }
+}
+
 
 
