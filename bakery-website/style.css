@@ -1,4 +1,4 @@
-header{background-color: #7b2c1f;}
+header{background-color: #7b2c1f; display: flex; justify-content: center; align-items: center;}
 .logo{width: 150px; margin-left: 450px; border-radius: 50%;}
 h1{font-family: great vibes, cursive; font-size: 3em; text-align: center;color: #d8a47f;}
 nav{margin-left: 30em;}
@@ -79,6 +79,7 @@ footer .copyright {
 }
 
 .photos{width: 15em;}
+
 
 
 
